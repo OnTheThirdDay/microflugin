@@ -1,0 +1,22 @@
+name: microflugin
+description: A framework for hybrid development
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_liquidcore:
+    git:
+      url: https://github.com/OnTheThirdDay/flutter_liquidcore.git
+      ref: efaf5ac636b9c6da24bd5d712108b7716a6a8828
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,1 @@
+npm run bundler -- --platform=android --dev=false --minify
